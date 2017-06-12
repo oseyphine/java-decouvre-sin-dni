@@ -1,0 +1,30 @@
+.banniere {
+	height: 250px;
+	width: 100%;
+	background: url('head-cadre.jpeg') no-repeat;
+	border-radius: 4px;
+	
+}
+
+.video {
+	margin:auto;
+	height: 200px;
+	width: 500px;
+	border :solid 3px black;
+	margin-top: 40px;
+	margin-bottom: 50px;
+}
+.video h1 {
+	text-align: center;
+	margin-top: 80px;
+}
+section img {
+	height: 400px;
+	width: 450px;
+
+}
+iframe {
+	width: 350px;
+	height: 200px;
+	margin-top: 30px;
+}
