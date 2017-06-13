@@ -6,22 +6,21 @@
 	color: white;
 }
 .col-md-7 { height: 1000px; padding: 1px; }
-.col-md-7 p { width: 600px; }
+
 
 .col-md-7 iframe { width: 700px; margin-top: 60px; margin-left: 6%; height: 400px; }
 iframe { width: 60%;  height: 910px;}
 
-.container { text-align: center; }
 
-h1,h3,ul,li { padding-left: 55px; }
+h1,h3 { padding-left: 55px; }
 
-a { color: white; }
 
-img { width: 400px;  border-radius: 5px; box-shadow: 5px 3px 4px #a9b5c9; float: left; }
+img { width: 400px;  border-radius: 5px; box-shadow: 5px 3px 4px #a9b5c9; margin-left: 28%; }
 
 body { font-family: 'family=Poppins', Arial; }
+.text { margin-top: 70px; }
+footer { height: 150px;background: #109FFF;width: 100%; }
 
-.texteu { margin-top: 80px; width: 600px; }
 
 @media all and (max-width: 1024px)
 {
@@ -33,12 +32,11 @@ body { font-family: 'family=Poppins', Arial; }
 	.jumbotron button { margin-left: 40%; }
 	body { text-align: center;  }
 	.jumbotron { background-color: white; }
+	h1,h3 { padding-left: 0px; }
+
 
 }
-.jumbotron { padding: 1px; margin: 0px; height: 1000px; }
-.jumbotron p { text-align: center;margin-top: 60px; }
-.texte { margin-left: 50px; }
-
+.jumbotron { padding: 1px; margin: 0px; height: 1000px;overflow: auto; }
 .navbar-default { margin: 0; }
 
 button { margin-top: 50px; }
