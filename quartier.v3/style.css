@@ -3,12 +3,13 @@
 	background-color: #109FFF;
 	height: 1000px;
 	padding: 1px;
-	margin-top: -20px;
 	color: white;
 }
-.col-md-7 { height: 1000px; }
+.col-md-7 { height: 1000px; background: white fixed; background-size: cover; overflow: auto; padding: 1px; }
+.col-md-7 p { width: 600px; }
 
-iframe { width: 400px;  height: 500px; padding-left: 2%; }
+.col-md-7 iframe { width: 700px; margin-top: 60px; margin-left: 6%; }
+iframe { width: 60%;  height: 600px;}
 
 .container { text-align: center; }
 
@@ -16,7 +17,7 @@ h1,h3,ul,li { padding-left: 55px; }
 
 a { color: white; }
 
-img { width: 800px;  border-radius: 5px; box-shadow: 5px 3px 4px #a9b5c9; }
+img { width: 400px;  border-radius: 5px; box-shadow: 5px 3px 4px #a9b5c9; float: left; }
 
 body { font-family: 'family=Poppins', Arial; }
 
@@ -26,4 +27,14 @@ body { font-family: 'family=Poppins', Arial; }
 {
 
 	img { width: 300px; height: 300px; }
+	iframe { width: 100%; }
+	.jumbotron iframe { width: 400px;}
+	.jumbotron p { width: 400px; }
+	.jumbotron button { margin-left: 40%; }
 }
+.jumbotron { padding: 1px; margin: 0px; }
+.jumbotron p { margin-left: 6%; margin-top: 40px; }
+
+.navbar-default { margin: 0; }
+
+button { margin-top: 50px; }
