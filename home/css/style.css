@@ -54,9 +54,9 @@ a {
 	background: #4aca83;
 	border: none;
 }
-i { color: #DC4C41; display: block; }
+i { color: #DC4C41; }
 
-.icone { display: flex; justify-content: center; }
+.icone { display: flex; justify-content: center; margin-top: 250px; }
 
 .map { padding: 5%; }
 .map:hover { opacity: 0.8;
