@@ -54,3 +54,16 @@ a {
 	background: #4aca83;
 	border: none;
 }
+i { color: #DC4C41; display: block; }
+
+.icone { display: flex; justify-content: center; }
+
+.map { padding: 5%; }
+.map:hover { opacity: 0.8;
+	transform: scale(1.8); }
+
+
+
+
+
+
