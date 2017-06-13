@@ -5,11 +5,11 @@
 	padding: 1px;
 	color: white;
 }
-.col-md-7 { height: 1000px; background: white fixed; background-size: cover; overflow: auto; padding: 1px; }
+.col-md-7 { height: 1000px; padding: 1px; }
 .col-md-7 p { width: 600px; }
 
-.col-md-7 iframe { width: 700px; margin-top: 60px; margin-left: 6%; }
-iframe { width: 60%;  height: 600px;}
+.col-md-7 iframe { width: 700px; margin-top: 60px; margin-left: 6%; height: 400px; }
+iframe { width: 60%;  height: 910px;}
 
 .container { text-align: center; }
 
@@ -25,15 +25,19 @@ body { font-family: 'family=Poppins', Arial; }
 
 @media all and (max-width: 1024px)
 {
-
+	.col-md-5 { height: 450px; }
 	img { width: 300px; height: 300px; }
-	iframe { width: 100%; }
+	iframe { width: 100%; height: 400px; }
 	.jumbotron iframe { width: 400px;}
-	.jumbotron p { width: 400px; }
+	.jumbotron p { width: 400px; margin: center; }
 	.jumbotron button { margin-left: 40%; }
+	body { text-align: center;  }
+	.jumbotron { background-color: white; }
+
 }
-.jumbotron { padding: 1px; margin: 0px; }
-.jumbotron p { margin-left: 6%; margin-top: 40px; }
+.jumbotron { padding: 1px; margin: 0px; height: 1000px; }
+.jumbotron p { text-align: center;margin-top: 60px; }
+.texte { margin-left: 50px; }
 
 .navbar-default { margin: 0; }
 
