@@ -1,0 +1,110 @@
+body {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+ul, hr {
+  margin: 0;
+  padding: 0;
+}
+
+li { list-style: none;}
+
+p { color: #333; line-height: 1.8em;}
+
+a {color: inherit; text-decoration: none !important;}
+
+
+
+/* QUARTIERS
+=========================== */
+
+  /* TOP-BAR */
+  .top-bar { height: 35px; margin-top: 15px; }
+  .top-bar-phone, .top-bar-date, .top-bar-social { display: inline-block; float: left;}
+  .top-bar-date { margin-left: 35%; }
+  .top-bar li { display: inline-block; padding-right: 10px;}
+  .top-bar-social { float: right; }
+  .fa-facebook, .fa-twitter, .fa-youtube { background: #005ca9; color: white; border-radius: 2px; width: 25px; height: 25px; text-align: center; padding: 6px; }
+  .fa-facebook:hover, .fa-twitter:hover, .fa-youtube:hover { color: #005ca9; background: none; transition: all 0.3s ease;}
+
+  /* LOGO */
+  .logo { text-align: center; margin: 30px 0;}
+  .logo-baseline { text-align: center; font-size: 16px; color: #999; margin-bottom: 30px;}
+
+  /* NAVIGAION */
+  .navbar-default { background: none; border: none; }
+
+  /* JUMBOTRON */
+  .jumbotron { position: relative; background:  #005ca9; color: #fff; height: 365px; margin-bottom: -100px; z-index: -1;}
+  .jumbotron h1 { font-size: 45px; font-weight: 300; margin: 40px 0 ; padding: 0 180px; line-height: 1.4em;}
+
+  /* MAP */
+  .googleMap { text-align: center; }
+  #map {width: 100%; height: 580px; margin-bottom: 60px;}
+  .btn { color: #fff; border: none; border-radius: 3px; background: #4395D5; font-size: 14px; text-transfo }
+  .btn:hover { color: #fff; background: #005ca9; box-shadow: 0px 3px 6px rgba(0,0,0,0.1); transition: all 0.2s ease-in-out; }
+  .btn-lg { padding: 12px 15px; }
+
+  /* DETAILS-TEXT */
+  .quartiers-details {padding: 0 160px;}
+  .quartiers-details p { margin-bottom: 60px;}
+  .quartiers-title { font-size: 33px; color: #005ca9; margin-bottom: 30px;}
+
+  /* VIDEO */
+  .video video { position: relative; width: 100%; margin-bottom: -10px; height: auto;}
+
+  /* ACTIVITES */
+
+  /* NEXT-LAST */
+  .next, .last { background: #ccc; text-align: center; padding: 50px;}
+  .next p, .last { font-size: 24px; }
+  .last { margin-left: 0; background: #fff; }
+  .col-md-6 { padding: 0; }
+
+
+  /* FOOTER
+  =========================== */
+  .footer { background: #292c2f; padding: 52px; color: #fff;}
+  .footer p { color: #fff;}
+  .footer-left img { margin-bottom: 20px; }
+  .footer-links a { font-weight: 600; }
+  .footer-center { display: inline-block; vertical-align: top; }
+  .footer-distributed, .footer-center i { background-color: #33383b; color: #fff;  font-size: 18px;
+    width: 38px;  height: 38px;  border-radius: 50%;  text-align: center;  line-height: 40px;  margin: 7px 15px;  vertical-align: middle;}
+  .footer-distributed, .footer-center p {  display: inline-block;  color: #fff;  vertical-align: middle;  margin: 0;  line-height: 1.3em;
+    font-size: 13px;}
+
+/* RESPONSIVE
+=========================== */
+
+@media only screen and (min-width: 340px) and (max-width: 767px) {
+
+  .top-bar { display: none; }
+  .jumbotron h1 { font-size: 36px; padding: 0; }
+  .googleMap { position: relative;  }
+  .googleMap iframe { height: 300px; margin-bottom: 20px; }
+  .quartiers-details { padding: 0; }
+  .footer-left { text-align: center; margin-bottom: 40px; }
+  .footer-center { display: block; text-align: center; }
+  .footer-distributed, .footer-center i { margin-bottom: 20px; }
+  .footer-distributed, .footer-center p { display: block; }
+  .footer-company-about { text-align: center; margin-top: 40px; margin-bottom: 0;}
+  .footer-icons { display: none; }
+}
+
+  @media only screen and (min-width: 767px) and (max-width: 960px) {
+
+    .top-bar { display: none; }
+    .jumbotron h1 { font-size: 40px; padding: 0; }
+    .googleMap { position: relative;  }
+    .googleMap iframe { height: 300px; margin-bottom: 20px; }
+    .quartiers-details { padding: 0; }
+    .footer-left { text-align: center; margin-bottom: 40px; }
+    .footer-center { display: block; text-align: center; }
+    .footer-distributed, .footer-center i { margin-bottom: 20px; }
+    .footer-distributed, .footer-center p { display: block; }
+    .footer-company-about { text-align: center; margin-top: 40px; margin-bottom: 0;}
+    .footer-icons { display: none; }
+  }
+
+
