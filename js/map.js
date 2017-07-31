@@ -1,7 +1,7 @@
 function initMap() {
   var locations = [
 
-    ["Trinité <br> <img src='img/logo.jpg' class='resize' style='padding: 25px 0' alt=''><br> <a href='la-trinite.html' type='button' class='btn btn-lg'>Accéder à sa page</a>", -20.8948895, 55.46516180000003],
+    ["Trinité <br> <img src='img/logo.jpg' class='resize' style='padding: 25px 0' alt=''><br> <a href='la-trinite.html' type='button' class='btn btn-lg'>Accéder à sa page</a>",   ],
 
     ["Champ Fleuri <br> <img src='img/logo.jpg' class='resize' style='padding: 25px 0' alt=''> <br> <a href='champ-fleuri.html' type='button' class='btn btn-lg'>Accéder à sa page</a>‎‎", -20.8857654, 55.46626689999994],
 
@@ -61,7 +61,7 @@ function initMap() {
       map: map,
     });
 
-    google.maps.event.addListener(marker, 'click', function () {
+    google.maps.event.addListener(marker, 'mouseover', function () {
       infowindow.close(); // Close previously opened infowindow
       infowindow.setContent("<div id='infowindow'>" + loc[0] + "</div>");
       infowindow.open(map, marker);
